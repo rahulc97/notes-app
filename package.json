@@ -1,7 +1,7 @@
 {
-  "name": "note-taking-app",
+  "name": "acme-note",
   "private": true,
-  "description": "A smart note taking app",
+  "description": "Acme smart note taking app",
   "version": "0.1.0",
   "author": "Rahul C <gorahul10@gmail.com>",
   "dependencies": {
@@ -17,6 +17,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "gatsby-plugin-postcss": "^6.13.1",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.39",
     "prettier": "^2.8.8",
     "tailwindcss": "^3.4.6"
@@ -28,6 +29,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",

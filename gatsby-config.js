@@ -9,8 +9,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Smart Note Taking App`,
-    description: `AI powered smart note taking app`
+    title: `Acme Note`,
+    description: `Acme note AI powered smart note taking app`
   },
   plugins: [
     'gatsby-plugin-postcss',
@@ -39,4 +39,5 @@ module.exports = {
       },
     },
   ],
+  pathPrefix: "/notes-app",
 }

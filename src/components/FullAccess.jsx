@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { Link, navigate } from 'gatsby';
+import { navigate } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 
 export const FullAccessSection = () => {

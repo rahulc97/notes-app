@@ -1,4 +1,3 @@
-import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import editorGif from '../images/editor.gif';
 
@@ -14,7 +13,7 @@ export const Editor = () => {
         </div>
       </div>
       <div className='shadow-2xl'>
-        <img src={editorGif} placeholder='blurred' />
+        <img src={editorGif} placeholder='blurred' alt="gif"/>
       </div>
     </div>
   );

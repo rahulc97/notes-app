@@ -10,7 +10,9 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       backgroundImage: {
-        'hero': "url('https://www.google.com/keep/img/hero-bg-2x.jpg')",
+        'hero-2x': "url('https://www.google.com/keep/img/hero-bg-2x.jpg')",
+        'hero': "url('https://www.google.com/keep/img/hero-bg.jpg')",
+        'mobile-hero': "url('https://www.google.co.in/keep/img/mobile/hero-bg-2x.jpg')",
         'market': "url('https://www.google.com/keep/img/when-and-where/market-bg.jpg')"
       },
       colors: {

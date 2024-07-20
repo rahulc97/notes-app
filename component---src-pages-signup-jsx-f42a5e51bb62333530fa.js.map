@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-signup-jsx-f42a5e51bb62333530fa.js","mappings":"+HAUA,UARe,IAEX,2BAAK,e","sources":["webpack://acme-note/./src/pages/signup.jsx"],"sourcesContent":["import React from 'react';\n\nconst Signup = () => {\n  return (\n    <div>\n      Signup  page\n    </div>\n  );\n};\n\nexport default Signup;\n"],"names":[],"sourceRoot":""}

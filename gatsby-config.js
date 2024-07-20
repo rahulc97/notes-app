@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/notes-app",
   siteMetadata: {
     title: `Acme Note`,
     description: `Acme note AI powered smart note taking app`
@@ -39,5 +40,4 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: "/notes-app",
 }

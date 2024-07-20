@@ -1,11 +1,21 @@
 import React from "react"
 import Seo from "../components/seo"
 import { Topbar } from "../components/Topbar"
+import { CollaborationSection } from "../components/CollaborationSection"
+import { FullAccessSection } from "../components/FullAccess"
+import { Editor } from "../components/Editor"
+import { Footer } from "../components/Footer"
 
 const IndexPage = () => (
   <div className="flex flex-col">
     <Topbar />
-    <div className="h-[1700px] relative top-[612px] bg-[#eee8e2]">jhsgfhfd</div>
+    <div className=" relative top-[612px] ">
+      <div className="h-[800px] bg-[#eee8e2]">jshgfjsghfd</div>
+      <CollaborationSection />
+      <Editor />
+      <FullAccessSection />
+      <Footer />
+    </div>
   </div>
 )
 

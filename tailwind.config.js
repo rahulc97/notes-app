@@ -10,7 +10,8 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       backgroundImage: {
-        'hero': "url('https://www.google.com/keep/img/hero-bg-2x.jpg')"
+        'hero': "url('https://www.google.com/keep/img/hero-bg-2x.jpg')",
+        'collaboration': "url('https://evernote.com/_next/image?url=%2Fimages%2Fsplit%2Fteamwork.webp&w=640&q=75')"
       },
       colors: {
         yellow1: '#d1b245',

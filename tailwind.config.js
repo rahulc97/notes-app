@@ -11,7 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('https://www.google.com/keep/img/hero-bg-2x.jpg')",
-        'collaboration': "url('https://evernote.com/_next/image?url=%2Fimages%2Fsplit%2Fteamwork.webp&w=640&q=75')"
+        'market': "url('https://www.google.com/keep/img/when-and-where/market-bg.jpg')"
       },
       colors: {
         yellow1: '#d1b245',

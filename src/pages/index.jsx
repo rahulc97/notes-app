@@ -5,6 +5,7 @@ import { CollaborationSection } from "../components/CollaborationSection"
 import { FullAccessSection } from "../components/FullAccess"
 import { Editor } from "../components/Editor"
 import { Footer } from "../components/Footer"
+import { ShareThoughts } from "../components/ShareThoughts"
 
 const IndexPage = () => (
   <div className="flex flex-col">
@@ -13,6 +14,7 @@ const IndexPage = () => (
       <div className="h-[800px] bg-[#eee8e2]">jshgfjsghfd</div>
       <CollaborationSection />
       <Editor />
+      <ShareThoughts />
       <FullAccessSection />
       <Footer />
     </div>

@@ -5,32 +5,32 @@ const FEATURE_LIST = [
   {
     title: 'Clip',
     description: 'Articles, recipes, pages, images—keep track of everything useful you find online.',
-    imageName: 'web-clipper.webp',
+    imageName: 'web-clipper-icon.webp',
   },
   {
     title: 'Search',
     description: 'Find any text in any note. We’ll even catch your typos and make suggestions.',
-    imageName: 'search.webp',
+    imageName: 'search-icon.webp',
   },
   {
     title: 'Sync',
     description: 'With Acme on your computer and phone, your notes are always with you.',
-    imageName: 'sync.webp',
+    imageName: 'sync-icon.webp',
   },
   {
     title: 'Task',
     description: 'Capture to-do lists with related notes so you can stay in the flow.',
-    imageName: 'goals.webp',
+    imageName: 'goals-icon.webp',
   },
   {
     title: 'Sharing',
     description: 'Share a note with friends or family, even if they don’t use Acmee Note.',
-    imageName: 'sharing.webp'
+    imageName: 'sharing-icon.webp'
   },
   {
     title: 'Security',
     description: 'Safe, secure cloud storage keeps your information protected and private.',
-    imageName: 'lock.webp'
+    imageName: 'lock-icon.webp'
   }
 ]
 

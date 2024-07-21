@@ -11,7 +11,7 @@ const FeatureItem = ({ featureData }) => {
             base
             relativePath
             childImageSharp {
-              gatsbyImageData(width: 64, placeholder: NONE)
+              gatsbyImageData(width: 64)
             }
           }
         }

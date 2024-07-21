@@ -5,7 +5,7 @@ const FEATURE_LIST = [
   {
     title: 'Clip',
     description: 'Articles, recipes, pages, images—keep track of everything useful you find online.',
-    imageName: 'web-clipper-icon.webp',
+    imageName: 'phone.png',
   },
   {
     title: 'Search',

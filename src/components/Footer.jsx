@@ -15,19 +15,19 @@ export const Footer = () => {
             Acme Notes
           </p>
           <div className='flex flex-row gap-4 my-6'>
-            <Link to="/signup" className='text-white hover:text-gray-200'>
+            <Link to="/signup" aria-label='instagram account' className='text-white hover:text-gray-200'>
               <Insta />
             </Link>
-            <Link to="/signup" className='text-white hover:text-gray-200'>
+            <Link to="/signup" aria-label='twitter account' className='text-white hover:text-gray-200'>
               <Twitter />
             </Link>
-            <Link to="/signup" className='text-white hover:text-gray-200'>
+            <Link to="/signup" aria-label='linkedin account' className='text-white hover:text-gray-200'>
               <LinkedIn />
             </Link>
-            <Link to="/signup" className='text-white hover:text-gray-200'>
+            <Link to="/signup" aria-label='facebook account' className='text-white hover:text-gray-200'>
               <Facebook />
             </Link>
-            <Link to="/signup" className='text-white hover:text-gray-200'>
+            <Link to="/signup" aria-label='youtube account' className='text-white hover:text-gray-200'>
               <Youtube />
             </Link>
           </div>

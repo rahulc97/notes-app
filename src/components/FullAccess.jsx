@@ -19,7 +19,7 @@ export const FullAccessSection = () => {
           </div>
           <div className='px-4 mt-3 text-base w-fit font-semibold py-2 min-w-[125px] text-center  bg-[#ff6b21] hover:bg-[#b66841] shadow-lg cursor-pointer rounded-lg text-white' onClick={onSignupClick} role='presentation'> Start for free </div>
         </div>
-        <StaticImage src="../images/no-signal.webp" className='w-[300px] lg:w-auto' placeholder='blurred' quality={100} />
+        <StaticImage src="../images/no-signal.webp" className='w-[300px] lg:w-auto' alt="no-signal" placeholder='blurred' quality={100} />
       </div>
     </div>
   )

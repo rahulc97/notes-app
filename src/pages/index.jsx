@@ -6,12 +6,13 @@ import { FullAccessSection } from "../components/FullAccess"
 import { Editor } from "../components/Editor"
 import { Footer } from "../components/Footer"
 import { ShareThoughts } from "../components/ShareThoughts"
+import { Features } from "../components/Features"
 
 const IndexPage = () => (
   <div className="flex flex-col">
     <Topbar />
     <div className=" relative top-[612px] ">
-      <div className="h-[800px] bg-[#eee8e2]">jshgfjsghfd</div>
+      <Features />
       <CollaborationSection />
       <Editor />
       <ShareThoughts />

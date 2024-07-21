@@ -11,7 +11,7 @@ import { Features } from "../components/Features"
 const IndexPage = () => (
   <div className="flex flex-col">
     <Topbar />
-    <div className=" relative top-[612px] ">
+    <div className="relative top-[612px] ">
       <Features />
       <CollaborationSection />
       <Editor />

@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react';
 import { navigate } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
+import { Button } from './Button';
 
 export const FullAccessSection = () => {
   const onSignupClick = useCallback(() => {
@@ -17,7 +18,7 @@ export const FullAccessSection = () => {
           <div className='text-[18px] text-[#333] mb-8'>
             Acme notes automatically syncs across all your devices so you can access your most important information anytime, anywhere. No WiFi? No problem—offline mode means you can continue to use Evernote even when the internet cuts out.
           </div>
-          <div className='px-4 mt-3 text-base w-fit font-semibold py-2 min-w-[125px] text-center  bg-[#ff6b21] hover:bg-[#b66841] shadow-lg cursor-pointer rounded-lg text-white' onClick={onSignupClick} role='presentation'> Start for free </div>
+          <Button label='Start for free' onClick={onSignupClick} className='mt-3' />
         </div>
         <StaticImage src="../images/no-signal.webp" className='w-[300px] lg:w-auto' alt="no-signal" placeholder='blurred' quality={100} />
       </div>

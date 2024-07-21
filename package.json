@@ -6,7 +6,6 @@
   "author": "Rahul C <gorahul10@gmail.com>",
   "dependencies": {
     "gatsby": "^5.13.5",
-    "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-react-svg": "^3.3.0",

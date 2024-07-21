@@ -11,7 +11,7 @@ module.exports = {
   pathPrefix: "/notes-app",
   siteMetadata: {
     title: `Acme Note`,
-    description: `Acme note AI powered smart note taking app`
+    description: `Acme note AI powered smart note taking app.`
   },
   plugins: [
     'gatsby-plugin-postcss',

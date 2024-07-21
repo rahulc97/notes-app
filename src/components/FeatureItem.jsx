@@ -18,7 +18,7 @@ const FeatureItem = ({ featureData }) => {
       }
     }
   `);
-
+console.log(process.env.NODE_ENV)
   // Filter the image using the featureData.imageName variable
   const imageNode = data.allFile.edges.find(edge => edge.node.base === featureData.imageName);
   const image = imageNode ? getImage(imageNode.node.childImageSharp.gatsbyImageData) : null;

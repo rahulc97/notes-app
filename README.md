@@ -30,3 +30,12 @@ We are using github pages to host and build is deployed using  the github action
 - `npm run build` To build the project
 - `npm run clean` Deletes the .cache and public directories
 - `npm run test` To run the tests
+
+
+## Lighthouse report
+
+Full report available on: [lighthouse-report.pdf](https://github.com/user-attachments/files/16325717/lighthouse-report.pdf)
+
+
+<img width="1502" alt="image" src="https://github.com/user-attachments/assets/1dbedb0b-229b-4cb7-b262-86d2b63d2100">
+

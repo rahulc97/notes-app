@@ -2,7 +2,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import React from "react";
 
-const FeatureItem = ({  featureData }) => {
+const FeatureItem = ({ featureData }) => {
   const data = useStaticQuery(graphql`
     query {
       allFile(filter: {extension: {regex: "/(jpg|jpeg|png|webp)/"}, sourceInstanceName: {eq: "images"}}) {
@@ -11,7 +11,7 @@ const FeatureItem = ({  featureData }) => {
             base
             relativePath
             childImageSharp {
-              gatsbyImageData(width: 64, placeholder: BLURRED)
+              gatsbyImageData(width: 64)
             }
           }
         }

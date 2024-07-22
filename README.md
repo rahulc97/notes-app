@@ -4,8 +4,11 @@ A SaaS platform to create and store notes seamlessly. This app is hosted in gith
 
 This UI is built using:
 - react: https://facebook.github.io/react/
-- -gatsbyjs: https://www.gatsbyjs.com/
-- tailwindCss: https://tailwindcss.com/
+- gatsby: https://www.gatsbyjs.com/
+- tailwindcss: https://tailwindcss.com/
+For image optimisation uses:
+- gatsby-plugin-image
+- gatsby-transformer-sharp
 
 ## Development/Local running
 
